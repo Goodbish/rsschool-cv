@@ -19,4 +19,4 @@ Projects:
 https://github.com/Goodbish/Website (temporary link)
 https://evgenya.azurewebsites.net/ (temporary link)
 
-English level: B1
+English level: B1 
