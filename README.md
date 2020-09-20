@@ -1,1 +1,1 @@
-# rsschool-cv
+https://goodbish.github.io/rsschool-cv/
