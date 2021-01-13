@@ -15,7 +15,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 0;
-  background-image: url(/assets/bg.svg);
+  background-image: url(./assets/bg.svg);
   width: 100%;
   height: 100%;
 }
@@ -104,7 +104,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-left: 9px;
-  margin-top: 78px;
+  margin-top: 33px;
   font-size: 25px;
   line-height: 120%;
 }
@@ -140,7 +140,7 @@
 
 .content {
   margin-left: 25px;
-  margin-top: 72px;
+  margin-top: 100px;
 }
 
 .title {
@@ -233,16 +233,19 @@
   padding-top: 14px;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1352px) {
   .top-right-back {
     width: 45.7%;
   }
   .wrapper {
-    width: 1351px;
+    width: calc(1351px - 23px);
     margin: 0 auto;
   }
   .head__right {
     left: 49.6%;
+  }
+  .profile {
+    margin-right: 8%;
   }
 }
 
@@ -306,6 +309,48 @@
   }
   .title {
     font-size: 35px;
+  }
+  .two-glass {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    padding: 20px 0 20px 5px;
+  }
+  .top-right-back {
+    height: 400px;
+    left: revert;
+  }
+  .head__left {
+    width: 90%;
+    padding: 25px 0 60px 22px;
+  }
+  .head__left__name {
+    font-size: 44px;
+  }
+  .head__left__position {
+    font-size: 18px;
+  }
+  .head__left__contacts {
+    font-size: 18px;
+  }
+  .content {
+    margin: 70px 0 0 0;
+  }
+  .profile, .projects, .skills, .english {
+    width: 81%;
+  }
+  .profile__text, .projects__text, .skills__text, .english__text {
+    font-size: 18px;
+    word-wrap: break-word;
+  }
+  .title {
+    font-size: 30px;
   }
   .two-glass {
     -webkit-box-orient: vertical;

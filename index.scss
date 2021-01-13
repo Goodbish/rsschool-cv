@@ -27,19 +27,10 @@
     margin: 0 auto;
 }
 
-// .bg {
-//     object-fit: cover;
-//     position: absolute;
-//     z-index: 0;
-//     background-image: url(/assets/bg.svg);
-//     width: 100%;
-//     height: 100%;
-// }
-
 .main {
     object-fit: cover;
     z-index: 0;
-    background-image: url(/assets/bg.svg);
+    background-image: url(./assets/bg.svg);
     width: 100%;
     height: 100%;
 }
@@ -119,7 +110,7 @@
         &__contacts {
             display: flex;
             margin-left: 9px;
-            margin-top: 78px;
+            margin-top: 33px;
             font-size: 25px;
             line-height: 120%;
             
@@ -157,7 +148,7 @@
 
 .content {
     margin-left: 25px;
-    margin-top: 72px;
+    margin-top: 100px;
 }
 
 .title {
@@ -202,13 +193,13 @@
     width: fit-content;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1352px) {
     .top-right-back {
         width: 45.7%;
     }
 
     .wrapper {
-        width: 1351px;
+        width: calc(1351px - 23px);
         margin: 0 auto;
     }
 
@@ -218,6 +209,11 @@
             left: 49.6%;
         }
     }
+
+    .profile {
+        margin-right: 8%;
+    }
+
 }
 
 @media (max-width: 1201px) {
@@ -291,6 +287,59 @@
 
     .title {
         font-size: 35px;
+    }
+
+    .two-glass {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .wrapper {
+        padding: 20px 0 20px 5px;
+    }
+
+
+    .top-right-back {
+        height: 400px;
+        left: revert;
+    }
+
+    .head {
+
+        &__left {
+            width: 90%;
+            padding: 25px 0 60px 22px;
+
+            &__name {
+                font-size: 44px;
+            }
+
+            &__position {
+                font-size: 18px;
+            }
+
+            &__contacts {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .content {
+        margin: 70px 0 0 0;
+    }
+
+    .profile , .projects , .skills , .english {
+        width: 81%;
+        &__text {
+            font-size: 18px;
+            word-wrap: break-word;
+        }
+    }
+
+    .title {
+        font-size: 30px;
     }
 
     .two-glass {
