@@ -7,11 +7,7 @@
 }
 
 .main {
-  width: 1351px;
   margin: 0 auto;
-}
-
-.main {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 0;
@@ -60,7 +56,7 @@
   padding: 48px 0 60px 42px;
   -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
 }
 
@@ -151,7 +147,7 @@
 .profile {
   -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
   margin-top: 49px;
   padding: 23px 27px 34px;
@@ -168,7 +164,7 @@
 .projects {
   -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
   margin-top: 49px;
   padding: 23px 27px 34px;
@@ -197,7 +193,7 @@
 .skills {
   -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
   margin-top: 49px;
   padding: 23px 27px 34px;
@@ -217,7 +213,7 @@
 .english {
   -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
   margin-top: 49px;
   padding: 23px 27px 34px;
